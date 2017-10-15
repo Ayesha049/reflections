@@ -37,6 +37,21 @@ git init : initialize a repo in current directory
 
 command : ls -a :: shows all file
 
+
+git status :
+git add filename:
+
+###########################
+
+git commit -m "Commit message"
+
+
+
+
+
+
+
+
 git status : 
 
 
