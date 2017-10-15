@@ -49,7 +49,7 @@ git commit -m "Commit message"
 
 git diff (no argument) : difference between working directory and staging area
 
-git diff --stage : difference between repo and staging area
+git diff --staged : difference between repo and staging area
 
 
 
