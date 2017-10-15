@@ -1,0 +1,43 @@
+#######commands I use here
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+########################
+
+git website : https://git-scm.com/downloads
+
+for updating git : git clone https://github.com/git/git
+
+for checking verson : git --version
+
+for install : sudo apt-get install git
+
+#########################
+
+git clone "githublink" : it downloads all 
+
+#########################
+
+git log : it gives all the id of the commits
+
+git diff 1st_id 2nd_id : show the differences between 2 commits. green lines mea repoans added lines and red lines means deleted lines. previous commit means below commit.
+
+#########################
+
+git checkout id : this will fetch that version as current version
+
+#########################
+
+git init : initialize a repo in current directory
+
+command : ls -a :: shows all file
+
+git status : 
+
+
+
