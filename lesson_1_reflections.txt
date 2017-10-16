@@ -51,17 +51,70 @@ git diff (no argument) : difference between working directory and staging area
 
 git diff --staged : difference between repo and staging area
 
-
-
-
-
-
-
-
-
-
-
 git status : 
+
+##########################
+
+git branch : shows all the branchs
+
+git checkout branchname : switch to that branch
+
+git branch branc-name : create new branch with that name
+
+###########################
+
+git merge branchname : this command merges the current branch to given branch;
+we can change current branch using git checkout.
+
+############################
+
+merge conflict solve
+
+git log -n1
+
+
+###########################
+
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
+
+
+
+##############################
+
+gitHub #######################
+
+git remote add origin "repo link" : create origin 
+git remote -v : shows all verbose
+git push origin branchname(master) 
+git pull origin master
+
+
+#############################
+
+git fork : copy a repo in my id
+git clone : copy a repo in my machnes current directory
+
+##############################
+
+git fetch + merge = git pull
+
+git pull origin master
+
+############################# 
+
+pull request is all in github
+
+
+#############################
+
+
 
 
 
