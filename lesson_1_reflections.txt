@@ -1,0 +1,121 @@
+#######commands I use here
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+########################
+
+git website : https://git-scm.com/downloads
+
+for updating git : git clone https://github.com/git/git
+
+for checking verson : git --version
+
+for install : sudo apt-get install git
+
+#########################
+
+git clone "githublink" : it downloads all 
+
+#########################
+
+git log : it gives all the id of the commits
+
+git diff 1st_id 2nd_id : show the differences between 2 commits. green lines mea repoans added lines and red lines means deleted lines. previous commit means below commit.
+
+#########################
+
+git checkout id : this will fetch that version as current version
+
+#########################
+
+git init : initialize a repo in current directory
+
+command : ls -a :: shows all file
+
+
+git status :
+git add filename:
+git add -A : add all files 
+
+###########################
+
+git commit -m "Commit message"
+
+##########################
+
+git diff (no argument) : difference between working directory and staging area
+
+git diff --staged : difference between repo and staging area
+
+git status : 
+
+##########################
+
+git branch : shows all the branchs
+
+git checkout branchname : switch to that branch
+
+git branch branc-name : create new branch with that name
+
+###########################
+
+git merge branchname : this command merges the current branch to given branch;
+we can change current branch using git checkout.
+
+############################
+
+merge conflict solve
+
+git log -n1
+
+
+###########################
+
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
+
+
+
+##############################
+
+gitHub #######################
+
+git remote add origin "repo link" : create origin 
+git remote -v : shows all verbose
+git push origin branchname(master) 
+git pull origin master
+
+
+#############################
+
+git fork : copy a repo in my id
+git clone : copy a repo in my machnes current directory
+
+##############################
+
+git fetch + merge = git pull
+
+git pull origin master
+
+############################# 
+
+pull request is all in github
+
+
+#############################
+
+
+
+
+
