@@ -115,7 +115,18 @@ pull request is all in github
 
 #############################
 
+for chanching a repo in github
 
+1. create a new directory in local machine
+2. git init in that directory
+3. git remote add origin "repo link"
+4. git pull origin master
+5. do the changes
+6. git add -A
+7. git commit -m "message"
+8. git push origin master
+
+#############################
 
 
 
